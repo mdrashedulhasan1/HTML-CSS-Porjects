@@ -42,7 +42,7 @@
             font-weight: 600;
             padding: 5% 0;
         }
-        .main-text button{
+        button{
             font-size: 18px;
             padding: 15px 30px;
             background-color: deepskyblue;
@@ -53,6 +53,30 @@
         }
         .name-text{
             color: deepskyblue;
+        }
+        .about-text{
+            text-align: center;
+        }
+        .about-text h1{
+            font-size: 40px;
+        }
+        .about-text h3{
+            font-size: 25px;
+            color: deepskyblue;
+        }
+        .half-width{
+            width: 50%;
+        }
+        .about-container{
+            height: 50vh;
+            display: flex;
+            align-items: center;
+            padding: 0 5%;
+        }
+        .info-text{
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 10px;
         }
     </style>
 </head>
@@ -80,5 +104,40 @@
             <img height="400px" src="images/person.png" alt="">
         </div>
     </main>
+    <section>
+        <div class="about-text">
+            <h3>About Me</h3>
+            <h1>A Passionate Developer Who</h1>
+            <h1>Loves to Code</h1>
+        </div>
+        <div class="about-container">
+            <div class="half-width">
+                <img style="height: 400px;" src="images/person-02.png" alt="">
+            </div>
+            <div class="half-width">
+                <h2>About Me</h2>
+                <p style="margin: 10px 0;">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occae cat cupidatat non proident, sunt in culpa qui officia dese runt mollit anim id est laborum velit esse cillum dolore eu fugiat.</p>
+                <div class="info-text">
+                    <div>
+                        <h3>Name</h3>
+                        <p>Alan Walker</p>
+                        <h3>Email</h3>
+                        <p>hello@gmail.com</p>
+                        <h3>Phone</h3>
+                        <p>0172987....</p>
+                    </div>
+                    <div>
+                        <h3>Address</h3>
+                        <p>Tangail, Dhaka</p>
+                        <h3>Degree</h3>
+                        <p>Master</p>
+                        <h3>Freelance</h3>
+                        <p>Available</p>
+                    </div>
+                </div>
+                <button>Download CV</button>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
